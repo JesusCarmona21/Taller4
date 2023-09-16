@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 3</title>
+</head>
+<body>
+    
+    <table>
+        <tbody>
+            <tr>
+                <td class="alignright">
+                    <strong>Account Type:</strong>
+                </td>
+                <td>
+                    <td><input type="radio" name="" value="" checked="">Individual<br>
+                        <input type="radio" name="" value="">Entity</td>
+                </td>
+            </tr>
+            <tr>
+            <td class="alignright">
+                <strong>First Name:</strong>
+            </td>
+            <td>
+                <input type="text" pattern="(Mr|Ms|Mrs) [A-Z]{1}[a-z ]*" size="33"maxlength="33" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Middle Name or Initial:</strong>
+            </td>
+            <td>
+                <input type="text" name="middleInitialName" size="33" maxlength="33" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Last Name:</strong>
+            </td>
+            <td>
+                <input type="text" name="lastName" size="33" maxlength="33" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Suffix:</strong>
+            </td>
+            <td>
+                <select name="suffix">
+                    <option selected="" value="">- -</option>
+                    
+                    <option value="">Mr</option>
+                    
+                    <option value="">Mrs</option>
+                    
+                    <option value="">Ms</option>
+
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Taxpayer Identification Number:</strong>
+            </td>
+            <td>
+                <input type="text" name="tin1" size="3" maxlength="3" value=""> - <input type="text" name="tin2" size="2" maxlength="2" value=""> - <input type="text" name="tin3" size="4" maxlength="4" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Date of Birth:</strong>
+            </td>
+            <td>
+                <input type="text" name="dateOfBirthMonth" size="2" maxlength="2" value=""> - <input type="text" name="dateOfBirthDay" size="2" maxlength="2" value=""> - <input type="text" name="dateOfBirthYear" size="4" maxlength="4" value=""> (MM-DD-YYYY)
+            </td>
+        </tr>
+        <tr>
+            <td class="alignrighttop">
+                <strong>Street Address:</strong>
+            </td>
+            <td>
+                <input type="text" name="address1" size="42" maxlength="42" value=""><br><input type="text" name="address2" size="42" maxlength="42" value=""><br><input type="text" name="address3" size="42" maxlength="42" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>City:</strong>
+            </td>
+            <td>
+                <input type="text" name="city" size="28" maxlength="28" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>State:</strong>
+            </td>
+            <td>
+                <select name="state">
+                    <option selected="" value="">- -</option>
+                    
+                    <option value="Amazonas ">AM</option>
+                
+                <option value="Antioquia ">ANT</option>
+                
+                <option value="Arauca ">ARA</option>
+                
+                <option value="Atlántico ">ATL</option>
+                
+                <option value="Bogotá">BOG</option>
+                
+                <option value="Bolívar ">BOL</option>
+                
+                <option value="Boyacá ">BOY</option>
+                
+                <option value="Caldas ">CAL</option>
+                
+                <option value="Caquetá ">CAQ</option>
+                
+                <option value="Casanare ">CAS</option>
+                
+                <option value="Cauca ">CAU</option>
+                
+                <option value="Cesar ">CES</option>
+                
+                <option value="Chocó ">CHO</option>
+                
+                <option value="Córdoba ">COR</option>
+                
+                <option value="Cundinamarca ">CUN</option>
+                
+                <option value="Guainía ">GUA</option>
+                
+                <option value="Guaviare ">GUV</option>
+                
+                <option value="Huila ">HUI</option>
+                
+                <option value="La Guajira">LAG</option>
+                
+                <option value="Magdalena ">MAG</option>
+                
+                <option value="Meta ">MET</option>
+                
+                <option value="Nariño ">NAR</option>
+                
+                <option value="Norte de Santander">NSA</option>
+                
+                <option value="Putumayo ">PUT</option>
+                
+                <option value="Quindío ">QUI</option>
+                
+                <option value="Risaralda ">RIS</option>
+                
+                <option value="San Andrés y Providencia">SAP</option>
+                
+                <option value="Santander ">SAN</option>
+                
+                <option value="Sucre ">SUC</option>
+                
+                <option value="Tolima ">TOL</option>
+                
+                <option value="Valle del Cauca">VAC</option>
+                
+                <option value="Vichada ">VID</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Zip Code:</strong>
+            </td>
+            <td>
+                <input type="text" name="zip6" size="6" maxlength="6" value="">
+                <input type="text" name="zip4" size="4" maxlength="4" value=""> (Plus Four - Optional)
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Home Phone:</strong>
+            </td>
+            <td>
+                (<input type="text" name="homePhone1" size="3" maxlength="3" value="">) <input type="text" name="homePhone2" size="3" maxlength="3" value=""> - <input type="text" name="homePhone3" size="4" maxlength="4" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Driver's License/State ID Number:</strong>
+            </td>
+            <td>
+                <input type="text" name="driversLicenseNumber" size="20" maxlength="20" value="">
+            </td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Issuing State:</strong>
+            </td>
+            <td><select name="driversLicenseStId">
+                <option selected="" value="">- -</option>
+                
+                <option value="Amazonas ">AM</option>
+                
+                <option value="Antioquia ">ANT</option>
+                
+                <option value="Arauca ">ARA</option>
+                
+                <option value="Atlántico ">ATL</option>
+                
+                <option value="Bogotá">BOG</option>
+                
+                <option value="Bolívar ">BOL</option>
+                
+                <option value="Boyacá ">BOY</option>
+                
+                <option value="Caldas ">CAL</option>
+                
+                <option value="Caquetá ">CAQ</option>
+                
+                <option value="Casanare ">CAS</option>
+                
+                <option value="Cauca ">CAU</option>
+                
+                <option value="Cesar ">CES</option>
+                
+                <option value="Chocó ">CHO</option>
+                
+                <option value="Córdoba ">COR</option>
+                
+                <option value="Cundinamarca ">CUN</option>
+                
+                <option value="Guainía ">GUA</option>
+                
+                <option value="Guaviare ">GUV</option>
+                
+                <option value="Huila ">HUI</option>
+                
+                <option value="La Guajira">LAG</option>
+                
+                <option value="Magdalena ">MAG</option>
+                
+                <option value="Meta ">MET</option>
+                
+                <option value="Nariño ">NAR</option>
+                
+                <option value="Norte de Santander">NSA</option>
+                
+                <option value="Putumayo ">PUT</option>
+                
+                <option value="Quindío ">QUI</option>
+                
+                <option value="Risaralda ">RIS</option>
+                
+                <option value="San Andrés y Providencia">SAP</option>
+                
+                <option value="Santander ">SAN</option>
+                
+                <option value="Sucre ">SUC</option>
+                
+                <option value="Tolima ">TOL</option>
+                
+                <option value="Valle del Cauca">VAC</option>
+                
+                <option value="Vichada ">VID</option>
+                
+                </select></td>
+        </tr>
+        <tr>
+            <td class="alignright">
+                <strong>Expiration Date:</strong>
+            </td>
+            <td>
+                <input type="text" name="driversLicenseExpDtMonth" size="2" maxlength="2" value=""> - <input type="text" name="driversLicenseExpDtDay" size="2" maxlength="2" value=""> - <input type="text" name="driversLicenseExpDtYear" size="4" maxlength="4" value=""> (MM-DD-YYYY)
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
